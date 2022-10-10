@@ -1,0 +1,167 @@
+html {
+  background: #38404B;
+  font-family: 'Ubuntu', 'sans-serif';
+  font-style: normal;
+
+}
+body{
+    width: 1280px;
+    background-color: #38404B
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 100px;
+}
+#container{
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+    background: #38404B;
+    overflow: auto;
+    border-radius: 10px;
+}
+#container h1 {
+    display: relative;
+    /* margin: 150px; */
+    text-transform: uppercase;
+
+}
+#container ul{
+    flex-wrap:wrap;
+    display: flex;
+    margin: 50px;
+    padding-left: 50px;
+}
+#container ul li{
+  /* flex-direction: column; */
+  font-family: ('Ubuntu');
+  font-style: normal;
+  margin: 50px;
+  flex-wrap:wrap;
+  display: flex;
+  position: relative;
+  width: 449px;
+  height: 59px;
+  left: 126px;
+  top: 234px;
+  background: #38404B;
+  box-shadow: -5px 5px 10px rgba(48, 54, 64, 0.2), 5px -5px 10px rgba(48, 54, 64, 0.2), -5px -5px 10px rgba(64, 74, 86, 0.9), 5px 5px 13px rgba(48, 54, 64, 0.9), inset 1px 1px 2px rgba(64, 74, 86, 0.3), inset -1px -1px 2px rgba(48, 54, 64, 0.5);
+  border-radius: 16px;
+  align-items: center;
+}
+#container ul li label{
+    font-family: ('Ubuntu');
+    font-style: normal;
+    margin-left: 48px;
+    font-size: 18px;
+    color: #94ADCF;
+
+}
+
+#container ul li #check{
+    float: inherit;
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    -webkit-appearance: none;
+    border: 2.5px solid #94ADCF;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 102px;
+}
+#container ul li #check:checked::after {
+    content: url('dot.png');
+    /* font-size: 20px;  */
+    margin: 0px 4px 0px -2px;
+    /* color: #94ADCF;
+    margin-bottom: 3px; */
+
+
+
+}
+
+#container ul li input[type='checkbox']:checked+label{
+    text-decoration: line-through;
+    color: #94ADCF;
+
+
+}
+#container .controls {
+    font-family: ('Ubuntu');
+    font-style: normal;
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+#container .controls #input{
+  /* display: flex; */
+  font-family: ('Ubuntu');
+  font-style: normal;
+  margin: auto;
+  width: 578px;
+  height: 59px;
+  left: 351px;
+  top: 74px;
+  margin-bottom: 10px;
+  background: #38404B;
+  box-shadow: 1px 1px 2px rgba(66, 75, 88, 0.3), -1px -1px 2px rgba(46, 53, 62, 0.5), inset -3px 3px 6px rgba(46, 53, 62, 0.2), inset 3px -3px 6px rgba(46, 53, 62, 0.2), inset -3px -3px 6px rgba(66, 75, 88, 0.9), inset 3px 3px 8px rgba(46, 53, 62, 0.9);
+  border-radius: 16px;
+  color: #94ADCF;
+}
+#container .controls #input:focus {
+    outline: 0;
+
+}
+
+#container .controls button{
+    font-family: ('Ubuntu');
+    font-style: normal;
+    width: 30%;
+    background: #94ADCF;
+    border: none;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: #94ADCF;
+
+}
+#container .controls button:focus{
+    outline: 0;
+}
+
+#container .controls button:hover{
+    transform: scale(1.05);
+}
+#container .controls #add{
+    font-family: ('Ubuntu');
+    font-style: normal;
+    margin-top: 0;
+    background-color: #38404B;
+    border-radius: 10px;
+    background: #38404B;
+    box-shadow: -5px 5px 10px rgba(48, 54, 64, 0.2), 5px -5px 10px rgba(48, 54, 64, 0.2), -5px -5px 10px rgba(64, 74, 86, 0.9), 5px 5px 13px rgba(48, 54, 64, 0.9), inset 1px 1px 2px rgba(64, 74, 86, 0.3), inset -1px -1px 2px rgba(48, 54, 64, 0.5);
+    border-radius: 16px;
+}
+#container .controls #remove {
+    font-family: ('Ubuntu');
+    font-style: normal;
+    margin-top: 5px;
+    background-color: #38404B;
+    border-radius: 10px;
+    background: #38404B;
+    box-shadow: -5px 5px 10px rgba(48, 54, 64, 0.2), 5px -5px 10px rgba(48, 54, 64, 0.2), -5px -5px 10px rgba(64, 74, 86, 0.9), 5px 5px 13px rgba(48, 54, 64, 0.9), inset 1px 1px 2px rgba(64, 74, 86, 0.3), inset -1px -1px 2px rgba(48, 54, 64, 0.5);
+    border-radius: 16px;
+
+}
+#container .mycheck {
+    opacity: 1;
+    border-radius: 10px;
+}
+.visual {
+    opacity: 1 !important;
+    border-radius: 10px;
+}
